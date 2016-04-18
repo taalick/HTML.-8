@@ -1,0 +1,597 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*_______________________________________ CONNECTION FONTS _______________________________________*/
+
+/ @font-face kit by Fonts2u (http://www.fonts2u.com) /
+ @font-face {
+   font-family:'Open Sans Light';
+   src:url("../fonts/OpenSans-Light.eot?") format("eot"),
+   url("../fonts/OpenSans-Light.woff") format("woff"),
+   url("../fonts/OpenSans-Light.ttf") format("truetype"),
+   url("../fonts/OpenSans-Light.svg#OpenSans-Light") format("svg");
+   font-weight:normal;
+   font-style:normal;
+ }
+
+ / @font-face kit by Fonts2u (http://www.fonts2u.com) /
+ @font-face {
+   font-family:'Open Sans Extrabold';
+   src:url("../fonts/OpenSans-ExtraBold.eot?") format("eot"),
+   url("../fonts/OpenSans-ExtraBold.woff") format("woff"),
+   url("../fonts/OpenSans-ExtraBold.ttf") format("truetype"),
+   url("../fonts/OpenSans-ExtraBold.svg#OpenSans-Extrabold") format("svg");
+   font-weight:normal;
+   font-style:normal;
+ }
+
+
+
+@font-face {
+    font-family: 'league_gothiccondensed_italic';
+    src: url('leaguegothic-condenseditalic-webfont.eot');
+    src: url('leaguegothic-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-condenseditalic-webfont.woff2') format('woff2'),
+         url('leaguegothic-condenseditalic-webfont.woff') format('woff'),
+         url('leaguegothic-condenseditalic-webfont.ttf') format('truetype'),
+         url('leaguegothic-condenseditalic-webfont.svg#league_gothiccondensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('league-gothic.regular-webfont.eot');
+    src: url('league-gothic.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league-gothic.regular-webfont.woff2') format('woff2'),
+         url('league-gothic.regular-webfont.woff') format('woff'),
+         url('league-gothic.regular-webfont.ttf') format('truetype'),
+         url('league-gothic.regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*_______________________________________ WRAPPER _______________________________________*/
+
+.wrapper{
+	height: 2306px;
+	width: 2400px;	
+}
+
+/*_______________________________________ HEADER _______________________________________*/
+.header_top{
+	background: url(../../img/head_main.jpg);
+	background-repeat: none;
+	height: 845px;
+	width: 2400px;
+	position: relative;
+}
+
+	/*.pingbuller{
+		display: inline-block;
+		margin: 30px auto;
+
+	}*/
+
+/*_______________ MENU _____________*/
+/*_________ HOME ________*/
+	.pingbuller{
+		display: block;
+		margin-left: 722px;
+		padding-top: 71px;
+		float: left;
+	}
+	.menu > li{
+		display: block;
+		float: left;
+	}
+
+	.submenu{
+		position: absolute;		
+	    margin-left: 171px;
+	    margin-top: 37px;
+	    width: 704px;
+	}
+	
+	.submenu > li{
+		display: block;
+		float: left;
+	}
+
+
+	nav > ul > li > ul > li {
+		float: left;
+	    margin-right: 40px;
+   		margin-top: 35px;
+	}
+
+	nav > ul > li > ul > li > a{		
+	    color: white;	   
+	    font-size: 20px; 
+	    text-decoration: none;   
+	    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy; 	 		
+	}
+
+
+
+.header_bottom{
+	height: 340px;
+	width: 2400px;
+	border-top: 1px solid #332340;
+	border-bottom:	1px solid #17141f; 
+	box-shadow: 0 0 15px #17141f;
+	margin-bottom: 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6e4b73+0,73507a+0,75517f+1,754e83+1,754f80+2,754e83+3,754f80+5,734d80+10,6e4c7e+11,6e4c7e+15,6c4b78+16,6c4b78+20,6a4976+20,6a4976+25,664572+28,664572+32,644370+34,5f436b+35,5d4169+42,573b63+48,573c5f+52,52385b+55,4f3a5b+57,4d3557+60,4d3557+65,483354+67,493153+69,47304d+70,47304d+74,40304b+76,3e2e49+78,3e2e49+82,3c2c47+83,3c2d42+87,38293e+91,36273e+99,32263c+100 */
+background: #6e4b73; /* Old browsers */
+background: -moz-linear-gradient(top,  #6e4b73 0%, #73507a 0%, #75517f 1%, #754e83 1%, #754f80 2%, #754e83 3%, #754f80 5%, #734d80 10%, #6e4c7e 11%, #6e4c7e 15%, #6c4b78 16%, #6c4b78 20%, #6a4976 20%, #6a4976 25%, #664572 28%, #664572 32%, #644370 34%, #5f436b 35%, #5d4169 42%, #573b63 48%, #573c5f 52%, #52385b 55%, #4f3a5b 57%, #4d3557 60%, #4d3557 65%, #483354 67%, #493153 69%, #47304d 70%, #47304d 74%, #40304b 76%, #3e2e49 78%, #3e2e49 82%, #3c2c47 83%, #3c2d42 87%, #38293e 91%, #36273e 99%, #32263c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6e4b73 0%,#73507a 0%,#75517f 1%,#754e83 1%,#754f80 2%,#754e83 3%,#754f80 5%,#734d80 10%,#6e4c7e 11%,#6e4c7e 15%,#6c4b78 16%,#6c4b78 20%,#6a4976 20%,#6a4976 25%,#664572 28%,#664572 32%,#644370 34%,#5f436b 35%,#5d4169 42%,#573b63 48%,#573c5f 52%,#52385b 55%,#4f3a5b 57%,#4d3557 60%,#4d3557 65%,#483354 67%,#493153 69%,#47304d 70%,#47304d 74%,#40304b 76%,#3e2e49 78%,#3e2e49 82%,#3c2c47 83%,#3c2d42 87%,#38293e 91%,#36273e 99%,#32263c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6e4b73 0%,#73507a 0%,#75517f 1%,#754e83 1%,#754f80 2%,#754e83 3%,#754f80 5%,#734d80 10%,#6e4c7e 11%,#6e4c7e 15%,#6c4b78 16%,#6c4b78 20%,#6a4976 20%,#6a4976 25%,#664572 28%,#664572 32%,#644370 34%,#5f436b 35%,#5d4169 42%,#573b63 48%,#573c5f 52%,#52385b 55%,#4f3a5b 57%,#4d3557 60%,#4d3557 65%,#483354 67%,#493153 69%,#47304d 70%,#47304d 74%,#40304b 76%,#3e2e49 78%,#3e2e49 82%,#3c2c47 83%,#3c2d42 87%,#38293e 91%,#36273e 99%,#32263c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e4b73', endColorstr='#32263c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.clearfix:after{
+	display: block;
+	content: '';
+	clear: both;
+	float: none;		 		
+}
+
+.header_bottom > ul {
+	width: 1055px;
+    margin: 75 auto
+}
+
+.header_bottom > ul > li {
+	width: 279px;
+    height: 171px;
+    margin-left: -105px;
+    color: #fffbff;
+    display: block;
+    float: left;
+    margin-left: 40px
+}  
+
+.header_bottom > ul > li > a{
+	color: #fffbff;
+	float: right;
+	text-decoration: none;    
+    font-size: 14px;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy; 	
+}
+
+.header_bottom > ul > li > a:hover{
+	color: dac5e4;
+}
+
+.header_bottom > ul > li > h3 {
+	display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-stretch: ultra-condensed;
+    transform: scaleY(2);
+    padding-left: 22px;
+    line-height: 22px;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;
+}
+.header_bottom > ul > li > p {
+	padding-left: 54px;
+	display: inline-block;
+    margin: 0 0 16px;
+    line-height: 25px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif; 
+    text-overflow: clip;
+    overflow: hidden;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    height: 140px;
+}
+
+.header_bottom > ul > li >.settings{
+	display: inline-block;
+	background: url(../../img/icons.png) -1px 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	float: left;
+	transform: scaleY(1);
+
+}
+
+.header_bottom > ul > li >.speaking{
+	display: inline-block;
+	background: url(../../img/icons.png) -28px 0 no-repeat;
+	width: 27px;
+	height: 25px;
+	float: left;
+	transform: scaleY(1);	
+}
+
+.header_bottom > ul > li >.music{
+	display: inline-block;
+	background: url(../../img/icons.png) -56px 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	float: left;
+	transform: scaleY(1);
+}
+
+/*_______________________________________ NAIN _______________________________________*/
+
+.main{
+	
+}
+
+.main_top{
+	height: 410px;
+    width: 2400px;
+    background: #fafafa;
+    padding-top: 60px;
+}
+
+.article1{
+	height: 240px;
+    width: 387px;
+    background: white;
+    position: relative;
+    padding-top: 19px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+    float: left;
+    margin-left: 744px;
+    margin-top: 31px;
+    margin-right: 61px;		
+}
+
+.slider_min > .article1_wrapper{
+	margin-bottom: 15px;
+}
+
+.face_img{
+	position: absolute;
+    float: left;
+    left: -70px;
+    top: 3px;
+}
+
+.article1 > .slides > .overflow > .inner > p{	
+	margin-bottom: 5px;
+	padding-left: 40px;
+}
+
+.format_font1{
+	font-size: 12px;
+	transform: scaleY(2);
+	line-height: 25px;
+	font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;	
+	display: inline-block;
+}
+
+.article1_content{
+	padding-top: 4px;
+    word-wrap: break-word;
+    line-height: 22px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif; 
+}
+
+.article1_wrapper{
+	height: 220px;
+	text-overflow:clip;
+	overflow:hidden;	
+}
+
+.color_stars{
+	color: #dbc1e6;
+}
+
+.article2{
+	height: 260px;
+    width: 365px;
+    background: #fafafa;
+    margin: 0px auto;
+    float: left;
+    margin-top: 64px;
+}
+
+.img_list_el_1{
+	background: url(../../img/background.jpg) -51px -78px no-repeat;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+    float: left;
+}
+
+.img_list_el_2{
+	background: url(../../img/background.jpg) -60px -80px no-repeat;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+    float: left;   
+}
+
+.img_list_el_3{
+	background: url(../../img/background.jpg) -100px -15px no-repeat;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+    float: left;
+}
+
+.article2_title{
+	color: #3f3f3f;
+	transform: scaleY(2);
+	font-size: 15px;
+	margin-bottom: 23px;
+	font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;	
+}
+
+.title_article{
+	width: 300px;
+	height: 20px;
+    text-overflow: clip;
+    overflow: hidden;
+    margin-left: 20px;
+    color: #3f3f3f;
+    font-weight: 800;
+    margin-bottom: 9px;
+    margin-left: 64px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif; 
+}
+
+.content_title_article{
+	width: 270px;
+    height: 20px;
+    text-overflow: clip;
+    overflow: hidden;
+    margin-left: 20px;
+    color: #3f3f3f;
+    margin-bottom: 20px;
+    margin-left: 64px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif; 
+}
+
+.read_more{
+	float: right;
+    color: #3f3f3f;
+    font-weight: normal;
+    transform: scaleY(2);
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;	    
+}
+
+section.article2 > a.read_more:hover{
+	color: #a1a1a1;
+}
+
+
+
+.main_bottom{
+	height: 124px;
+	width: 2400px;	
+	border-top: 1px solid #ececec;
+	box-shadow: 0 0 5px #ececec;
+	background: #fafafa;
+
+}
+
+.labeles{
+	height: 124px;
+	width: 786px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-left: 10px;
+
+}
+
+.labeles > ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.labeles > ul > li{
+	float: left;
+}
+
+.label_1{
+	background: url(../../img/logos.png) 0 0 no-repeat;
+	height: 61px;
+    width: 68px;
+	display: inline-block;
+    margin-right: 52px;
+    margin-left: 28px;
+}
+.label_2{
+	background: url(../../img/logos.png) -70px 0 no-repeat;
+	height: 61px;
+    width: 72px;
+	display: inline-block;	
+}
+
+.label_3{
+	background: url(../../img/logos.png) -144px 0 no-repeat;
+    height: 61px;
+    width: 65px;
+	display: inline-block;
+	margin-left: 58px;
+    margin-right: 21px;   
+}
+
+.label_4{
+	background: url(../../img/logos.png) -208px 0 no-repeat;
+	height: 61px;
+    width: 52px;
+	display: inline-block;
+	margin-left: 44px;  
+}
+
+.label_5{
+	background: url(../../img/logos.png) -260px 0 no-repeat;
+	height: 61px;
+    width: 104px;
+	display: inline-block;
+	margin-left: 52px;
+    margin-right: 56px;
+    margin-top: 3px;
+}
+
+.label_6{
+	background: url(../../img/logos.png) -364px 0 no-repeat;
+    height: 70px;
+    width: 81px;
+	display: inline-block;	
+    margin-left: 2px;
+}
+
+/*_______________________________________ FOOTER ______________________________________*/
+
+footer{
+	
+}
+.top_footer_article_1{
+	float: left;
+	display: block;
+	text-overflow: clip;
+	overflow: hidden;
+	height: 199px;	
+}
+.top_footer_title_1{	
+	font-size: 33px;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;
+    margin-bottom: 10px;
+    color: #3f3f3f;    
+}
+
+.top_footer_title_1 > span {
+	color: #b9b9b9;
+}
+
+.top_footer_paragraph_1{	
+	font-size: 16px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif;
+    font-style: italic;
+    margin-top: 22px;
+    color: #b9b9b9;
+}
+.top_footer_article_2{
+	float: left;
+	display: block;
+	text-overflow: clip;
+	overflow: hidden;
+	margin-left: 54px;
+
+}
+.top_footer_title_2{
+	font-size: 21px;
+	font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;
+	color: #3f3f3f; 	 
+}
+.top_footer_paragraph_2{
+	font-size: 18px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif;
+    width: 283px;
+    margin-top: 12px;
+    height: 170px;
+    text-overflow: clip;
+	overflow: hidden;
+}
+.menu_footer{
+		
+}
+
+.top_footer{	
+	height: 300px;
+	background-color: #ececec;
+	padding-top: 104px;	
+}
+
+.designed_by{
+	background: url(../../img/footer.jpg) 0px -1160px no-repeat;
+	height: 200px;
+	width: 2400px;
+}
+
+.designed{
+	color: #f8f2fe;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -29px;
+    width: 174px;
+    margin-left: 1527px;
+}
+
+.designed > span{
+	font-weight: bold;
+}
+
+.article_3{	
+	width: 275px;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    margin-right: 23px;
+    margin-left: 59px;
+    margin-top: -5px;
+    color: #3f3f3f; 
+}
+.title_3_news{
+	transform: scaleY(1.5);
+    font-size: 20px;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;
+    line-height: 2;
+}
+.content_3_news{
+	font-size: 16px;
+    font-family: 'Open Sans Light', 'Open Sans Extrabold', sans-serif;
+    text-overflow: clip;
+	overflow: hidden;
+	height: 184px;
+    line-height: 27px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.menu_footer_bottom{	
+	width: 754px;
+    height: 80px;
+    margin-left: 695px;
+}
+
+.menu_footer_bottom > li {
+	display: block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 17px;
+    margin-top: 36px;
+}
+
+.menu_footer_bottom > li > a{
+	text-decoration: none;	
+	transform: scaleY(1.5);
+    font-size: 16px;
+    font-family: 'league_gothiccondensed_italic', 'league_gothicregular', fantasy;
+    line-height: 2;
+    color: white;
+}
+
+.top_footer > ul {
+	margin: 0 auto;
+	width: 977px;
+}
+
+.hide_960{
+	visibility: hidden;
+	height: 0px;
+
+	display: none;
+	visibility: collapse;
+}
